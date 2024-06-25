@@ -12,7 +12,7 @@ Instalacja
 Klonowanie repozytorium:
 
 Sklonuj repozytorium na swój lokalny komputer:
-git clone https://github.com/twoje-repo/accordion-project.git
+git clone https://github.com/Wojciech30/Zaliczenie
 cd accordion-project
 
 Instalacja zależności:
