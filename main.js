@@ -71,14 +71,12 @@ document.addEventListener('DOMContentLoaded', () => {
         accordionContainer.appendChild(itemContainer);
     }
 
-    // Przywróć elementy z localStorage
     const storedItems = getItemsFromLocalStorage();
     if (storedItems.length > 0) {
         storedItems.forEach(item => {
             addItem(item.title, item.description, item.isExpanded);
         });
     } else {
-        // Dodaj początkowe elementy i zapisz je do localStorage
         const initialItems = [];
         for (let i = 1; i <= 5; i++) {
             const title = `Element ${i}`;
@@ -89,7 +87,6 @@ document.addEventListener('DOMContentLoaded', () => {
         saveItemsToLocalStorage(initialItems);
     }
 
-    // Dodaj nowy element z formularza
     form.addEventListener('submit', (event) => {
         event.preventDefault();
         const title = titleInput.value.trim();
