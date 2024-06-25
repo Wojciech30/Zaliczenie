@@ -13,7 +13,7 @@ Klonowanie repozytorium:
 
 Sklonuj repozytorium na swój lokalny komputer:
 git clone https://github.com/Wojciech30/Zaliczenie
-cd accordion-project
+cd Zaliczenie
 
 Instalacja zależności:
 
